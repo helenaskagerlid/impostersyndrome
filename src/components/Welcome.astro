@@ -1,8 +1,19 @@
+---
+import { Image } from "astro:assets";
+---
+
 <section>
   <h1>Välkommen på en workshop om Kod + Imposter syndrom</h1>
   <p>När? 11:e Mars kl 18.00 (vi håller på cirka 40-50 minuter)</p>
   <p>Var? Online på Zoom. Du får länken när du anmäler dig nedan.</p>
-  <img src="/girl-computer.jpg" alt="" />
+  <Image
+    src="/girl-computer.jpg"
+    alt="woman with read hair sitting with her laptop smiling"
+    width={7952}
+    height={5304}
+    loading="lazy"
+    format="webp"
+  />
 </section>
 
 <style>
